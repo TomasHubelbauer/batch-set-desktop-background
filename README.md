@@ -1,5 +1,7 @@
 # Batch Set Desktop Background
 
+[**LIVE**](https://tomashubelbauer.github.io/batch-set-desktop-background)
+
 This repository contains a Batch code snippet which demonstrates how to manipulate
 the Windows registry to set the desktop wallpaper and desktop backgroud color
 settings and invoke `user32.dll` in order to make the changes take effect.
@@ -21,4 +23,6 @@ I used VB .NET because it has language support for XML literals.
 
 ## Tickets
 
-- Fix the `user32.dll` doing nothing (it used to work I swear)
+### Fix the `user32.dll` doing nothing
+
+It used to work, I swear.
