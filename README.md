@@ -28,3 +28,7 @@ I used VB .NET because it has language support for XML literals.
 ### Fix the `user32.dll` doing nothing
 
 It used to work, I swear.
+It probably needs a little time after being invoked.
+Maybe add a sleep or loop-monitor the registry to see the new value first and only then call it.
+Or see if the Win32 method has a callback hook or listen for it.
+Or find another way to see if the wallpaper has changed.
