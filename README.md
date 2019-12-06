@@ -21,7 +21,9 @@ I used VB .NET because it has language support for XML literals.
 
 `dotnet run` and then run `.\set-desktop-background.wsb`.
 
-## Tickets
+[A PowerShell version can be found here.](https://github.com/TomasHubelbauer/powershell-wallpaper)
+
+## To-Do
 
 ### Fix the `user32.dll` doing nothing
 
